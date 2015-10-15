@@ -1,1 +1,98 @@
 /* css */
+body{
+    margin:0px;
+    padding:0px;
+    background-color:black;
+    background-image: url("http://cdn.wonderfulengineering.com/wp-content/uploads/2014/07/background-wallpapers-32.jpg");
+    background:non-repeat;
+}
+
+#header{
+    background-color:gray;  /* this changes the background color to gray */
+    padding:0px;
+    color:white;
+    margin: 20px 80px;
+}
+
+#header h1{
+    padding:20px 40px;
+    margin:0px;
+}
+/* navigation */
+#nav, #nav a{
+    background-color:#ccc;   /* this changes the background color to gray */
+    padding:10px;
+}
+
+#nav a {
+    margin:0px;
+    color:black;
+    font-family:arial;
+    text-decoration:none; /*this turns off the underline on the links */  
+    transition:color 2s, background-color 2s;  /* this transitions the text */
+}
+
+#nav a:hover {
+    background-color:#aaaaff;  /* this changes the background color to indigo */
+    color:white;
+    transition:color 2s;
+}
+/* end navigation */
+
+.spotlight{
+    background-color:pink;
+    padding:20px;
+}
+
+#content{
+    padding:20px 40px;
+    background-color:#eee;
+    margin:0px;
+}
+h2,  h3 {
+    font-family: arial;
+}
+
+#footer {
+    background-color:black;
+    color:white;
+    margin:0px;
+    padding:20px 40px;
+}
+
+#page{
+    padding:40px;
+}
+
+/*#header{
+    padding:20px;
+    width:400px;
+    background-color:pink; 
+}
+
+#header:hover {
+    width:200px;
+    background-color:turquoise;
+    transition: width 2s, background-color 2s;
+}
+
+#header h2{
+    background-color:lime;
+}
+
+#header h2:hover{
+    font-size:50px;
+    background-color:gray;
+    transition: width 2s, background-color 2s, font-size 2s;
+}
+
+#content{
+    padding:20px;
+    width:400px;
+    background-color:green;
+}
+
+#content:hover {
+    width:200px;
+    transition: width 2s;
+}*/
